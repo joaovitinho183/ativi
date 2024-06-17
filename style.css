@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(124, 124, 124) ;
+    color: darkgreen;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-decoration:underline;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    border: 8px;
+    border-radius: 30px;
+    margin-left: 520px;
+    margin-right: 520px;
+    background-color: darkolivegreen;
+    border-color: black;
+    border-style: groove;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
